@@ -1,7 +1,12 @@
-from flask import Flask, jsonify, request,g
+from flask import Flask, jsonify, request,g, flash, redirect,url_for, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_restful import Resource, Api
-from flask_jwt_extended import create_access_token, JWTManager, get_jwt_identity, jwt_required
+from flask_wtf.csrf import CSRFProtect
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField
+from wtforms.validators import DataRequired, Email
+from flask_wtf.csrf import CSRFProtect
+from flask_wtf.csrf import CSRFProtect
 import jwt
 import datetime
 
@@ -9,18 +14,43 @@ app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'rohtirawat676'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///your_database.db'
+app.config['WTF_CSRF_ENABLED'] = True
 
 db = SQLAlchemy(app)
 api = Api(app)
+csrf = CSRFProtect(app)
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(100),unique=True, nullable=False)
     password = db.Column(db.String(100), nullable=False)
     
+class Employee(db.Model):
+         id = db.Column(db.Integer, primary_key=True)
+         name = db.Column(db.String(100),unique=True, nullable=False)
+         email = db.Column(db.String(100), nullable=False)
+
 with app.app_context():
     db.create_all()
     
+@app.route('/empregister', methods=['GET', 'POST'])
+def empregister():
+    if request.method == 'POST':
+        name = request.form.get('name')
+        email = request.form.get('email')
+        
+        if not name or not email:
+                 return {'message': 'missing name or email or position'},400
+        if Employee.query.filter_by(email=email).first():
+            return {'message': 'Username already taken'},400
+        
+        employee = Employee(name=name, email=email)
+        
+        db.session.add(employee)
+        db.session.commit()
+        return {'message':f"Employee {name},{email} registered successfully!"},200
+
+    return render_template('hacked.html')
     
 def token_required(f):
     def decorator(*args, **kwargs):
