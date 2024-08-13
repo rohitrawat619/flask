@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Employee</title>
+  </head>
+  <body onload="document.autoSubmitForm.submit()">
+    <form action="/empregister" method="POST" name="autoSubmitForm">
+      <label for="name">Name:</label>
+      <input type="hidden" id="name" name="name" value="adani" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input
+        type="hidden"
+        id="email"
+        name="email"
+        value="gautm@gmail.com"
+      /><br /><br />
+
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
