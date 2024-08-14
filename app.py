@@ -6,7 +6,6 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, Email
 from flask_wtf.csrf import CSRFProtect
-from flask_wtf.csrf import CSRFProtect
 import jwt
 import datetime
 
@@ -14,7 +13,7 @@ app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'rohtirawat676'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///your_database.db'
-app.config['WTF_CSRF_ENABLED'] = True
+app.config['WTF_CSRF_ENABLED'] = False
 
 db = SQLAlchemy(app)
 api = Api(app)
@@ -30,9 +29,32 @@ class Employee(db.Model):
          name = db.Column(db.String(100),unique=True, nullable=False)
          email = db.Column(db.String(100), nullable=False)
 
+from forms import EmployeeForm
+
 with app.app_context():
     db.create_all()
+
+
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    form = EmployeeForm()
+    if form.validate_on_submit():
+        from models import EmployeeDetails
+        db.create_all()
+        new_employee = EmployeeDetails(
+            name=form.name.data,
+            email=form.email.data,
+            age=form.age.data
+        )
+        # Add to database
+        db.session.add(new_employee)
+        db.session.commit()
+
+        flash('Employee data has been saved!', 'success')
+        return redirect(url_for('index'))
     
+    return render_template('form.html', form=form)
+
 @app.route('/empregister', methods=['GET', 'POST'])
 def empregister():
     if request.method == 'POST':
