@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request,g, flash, redirect,url_for, render_template
+from flask import Flask, jsonify, request,g, flash, redirect,url_for, render_template, abort
 from flask_sqlalchemy import SQLAlchemy
 from flask_restful import Resource, Api
 from flask_wtf.csrf import CSRFProtect
@@ -6,6 +6,8 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, Email
 from flask_wtf.csrf import CSRFProtect
+from mysql.connector import Error
+import mysql.connector
 import jwt
 import datetime
 
@@ -13,7 +15,14 @@ app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'rohtirawat676'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///your_database.db'
-app.config['WTF_CSRF_ENABLED'] = False
+app.config['WTF_CSRF_ENABLED'] = True
+
+db_config = {
+    'host': 'localhost',
+    'user': 'root',
+    'password': 'Cafe#676#',
+    'database': 'flaskcurdapi'
+}
 
 db = SQLAlchemy(app)
 api = Api(app)
@@ -33,7 +42,16 @@ from forms import EmployeeForm
 
 with app.app_context():
     db.create_all()
-
+    
+    
+def get_db_connection():
+    try:
+        connection = mysql.connector.connect(**db_config)
+        if connection.is_connected():
+            return connection
+    except Error as e:
+        print(f"Error connecting to MySQL: {e}")
+        return None   
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -138,6 +156,88 @@ def secure():
 # api.add_resource(UserRegistration,'/register')
 # api.add_resource(UserLogin,'/login')
 # api.add_resource(ProtectedResource,'/secure')
+
+@app.route('/items', methods=['GET'])
+def get_items():
+    connection = get_db_connection()
+    if connection:
+        cursor = connection.cursor()
+        cursor.execute('SELECT * FROM items')
+        rows = cursor.fetchall()
+        cursor.close()
+        connection.close()
+        items = [{'id': row[0], 'name': row[1], 'description': row[2]} for row in rows]
+        return jsonify(items)
+    else:
+        return jsonify({"error": "Database connection failed"}), 500
+
+@app.route('/items/<int:item_id>', methods=['GET'])
+def get_item(item_id):
+    connection = get_db_connection()
+    if connection:
+        cursor = connection.cursor()
+        cursor.execute('SELECT * FROM items WHERE id = %s', (item_id,))
+        row = cursor.fetchone()
+        cursor.close()
+        connection.close()
+        if row:
+            item = {'id': row[0], 'name': row[1], 'description': row[2]}
+            return jsonify(item)
+        return jsonify({"error": "Item not found"}), 404
+    else:
+        return jsonify({"error": "Database connection failed"}), 500
+
+@app.route('/items', methods=['POST'])
+def create_item():
+    if not request.json or not 'name' in request.json:
+        abort(400)
+    name = request.json['name']
+    description = request.json.get('description', "")
+    connection = get_db_connection()
+    if connection:
+        cursor = connection.cursor()
+        cursor.execute('INSERT INTO items (name, description) VALUES (%s, %s)', (name, description))
+        connection.commit()
+        cursor.close()
+        item_id = cursor.lastrowid
+        connection.close()
+        return jsonify({'id': item_id, 'name': name, 'description': description}), 201
+    else:
+        return jsonify({"error": "Database connection failed"}), 500
+
+@app.route('/items/<int:item_id>', methods=['PUT'])
+def update_item(item_id):
+    if not request.json:
+        abort(400)
+    name = request.json.get('name')
+    description = request.json.get('description')
+    connection = get_db_connection()
+    if connection:
+        cursor = connection.cursor()
+        cursor.execute('UPDATE items SET name = %s, description = %s WHERE id = %s', (name, description, item_id))
+        connection.commit()
+        cursor.close()
+        connection.close()
+        if cursor.rowcount:
+            return jsonify({'id': item_id, 'name': name, 'description': description})
+        return jsonify({"error": "Item not found"}), 404
+    else:
+        return jsonify({"error": "Database connection failed"}), 500
+
+@app.route('/items/<int:item_id>', methods=['DELETE'])
+def delete_item(item_id):
+    connection = get_db_connection()
+    if connection:
+        cursor = connection.cursor()
+        cursor.execute('DELETE FROM items WHERE id = %s', (item_id,))
+        connection.commit()
+        cursor.close()
+        connection.close()
+        if cursor.rowcount:
+            return jsonify({"message": "Item deleted"}), 200
+        return jsonify({"error": "Item not found"}), 404
+    else:
+        return jsonify({"error": "Database connection failed"}), 500
 
 if __name__ == "__main__":
     app.run(debug=True)
