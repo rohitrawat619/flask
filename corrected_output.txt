@@ -1,0 +1,135 @@
+ABOUT ME
+I am a Software Engineer with 3 years of professional experience and a master's
+degree in computer applications. I am seeking challenging opportunities in the
+European Unions I.T. sector, where I can contribute to organizational growth
+while expanding my knowledge of application frameworks.  I am particularly
+interested in exciting projects involving Python (Django & Flask), Drupal 9,
+Laravel PHP, Core PHP, Android App Development, and AWS Development like
+EC2, S3 Bucket in Cloud Service
+WORK EXPERIENCE
+Rohit Rabat 
+Date of birth: 02/10/1995 
+Nationality: Indian 
+Gender: Male 
+CONTACT 
+H. No : 95-A, H-Block, Divya
+Vicar Dharmapur, Dehradun, Uttarakhand, India 
+248001 Dehradun, India 
+(Home) 
+rohitrawat676@gmail.com 
+(+91) 8630950613 
+http://tataplay.come
+https://www.damensch.come
+https://msbte.org.in/
+https://www.linkedin.com/in/
+rohitrawat619 
++91 8630950613 (WhatsApp) 09/09/2024 – CURRENT Mumbai, India 
+LARAVEL / CORE PHP DEVELOPER:
+• Manage JSON, Restful API, Model Migration & Custom Blade Templates.
+• Custom Blade Template & Managing Razor pay Payment Gateway
+handle.
+• Data retrieving by rendering & API Development, ﬁltering data by SQL,
+and Data Migration.
+• Work on PHP 8.1 & Database switching to MongoDB.
+• Queue Job ﬁlter, JWT API Authentication & API routes with Middleware.
+• AWS EC2 Instance, Custom URL Address & S3 Bucket Management.
+08/02/2022 – 08/08/2024 Noida, India 
+LARAVEL / DRUPAL / CORE PHP DEVELOPER: 
+• Making JSON, Restful API, Custom Conﬁguration & Custom Entity, JIRA.
+• Creating Custom Content & ﬁling the data as a node. Creating a view
+with diﬀerent ﬁlters in Drupal.
+• Data retrieving & making API, ﬁltering Data, Drupal Migration.
+• Work on PHP 8.1 & Database switching to MongoDB.
+• AWS EC2 Instance, Custom Address & S3 Bucket Management.
+• Laravel MVC Framework Developer
+SQL / MongoDB DEVELOPER:
+• SQL Structure DDL, DEL, TCL.
+• Data Control by View DCL.
+• Transaction Control & Rollback Project Data by TCL.
+• Filtering Data by DML
+DJANGO / FLASK / PYTHON DEVELOPER :
+• Django Admin Shell & Restful API Authentication.
+• Django Model, Seeder & Make Migration.
+• MTV, MVC Framework Django & Flask.
+• Django / Flask API With JWT.
+• NumPy, Pandas Library, Canvas Library.
+REACT DEVELOPER:
+• Forms in React & Event in React.
+• React JSX & Form handling.
+• Redux & Context API.
+• React Hooks.
+25/06/2019 – 24/08/2019 Dehradun, India 
+ANDROID :
+• A Project Developed using JAVA + XML & Firebase as my Database
+where I linked this with my Project by SHA-1 key.
+• Use diﬀerent widget to design interface like navigation bar.
+• Launch Rohit Shopping app in Google Play Store
+• Made hard APK build available in Capture & ApkComboFull Stack Software Engineer Dynamic Systems Private Limited 
+Full Stack Software Engineer TO THE NEW PRIVATE LIMITED 
+Android App Developer ENSI NO RESEARCH AND
+DEVELOPMENT PRIVATE LIMITED 
+1 / 3PROJECTS 
+EDUCATION AND TRAINING
+09/09/2024 – CURRENT 
+•SITE Project : Developed by Laravel Framework with MySQL & MongoDB Database & JavaScript, jQuery.
+• Technology Use : Jira, JQuery, Laravel Blades Templates, JavaScript, Bootstrap Library, Ajax, Jenkins.
+Link https://msbte.org.in 
+08/02/2022 – 02/08/2024 
+•DTH Tata Play Project : Developed by Laravel PHP & DRUPAL CMS with MySQL Database &
+JavaScript, Jquery.
+• Technology Use : Jenkins, JQuery, AWS, Laravel PHP, Drupal 8 CMS, JavaScript, Bootstrap Library, Jenkins,
+Docker.
+Link https://www.tataplay.com 
+27/10/2023 – 02/08/2024 
+•Mensch Project : Developed by Django & Flask Framework with MySQL Database, Templates &
+JavaScript, jQuery.
+• Technology Use : Django Framework, Flask Framework, Jenkins, JQuery, AWS, JavaScript, Bootstrap Library,
+Docker.
+Link https://www.damensch.com 
+15/07/2019 – 28/08/2019 
+•Rohit Shopping App : Developed by Android Studio by Java with XML for Designing.
+• Database : Firebase.
+• SHA-1 Key Setup keys are used for security purposes.
+Link https://apkcombo.com/rohitshopping/com.bcauu.rohitrawatportugal https://msbte.org.inhttps://www.tataplay.comhttps://www.damensch.comhttps://apkcombo.com/rohitshopping/com.bcauu.rohitrawatportugal02/08/2020 – 07/06/2022 Dehradun, India 
+Address Bell Road, Clement Town Dehradun (Main campus at Dehradun), Uttarakhand, 248001, Dehradun, India 
+Website https://www.gehu.ac.in/ Field of study, Cloud, Java, Oracle, C#, Automata, Python, C++, Data Structure,
+JavaScript Final grade83 % Level in EQF EQF level 7 
+12/08/2017 – 08/07/2020 Dehradun 
+Address Arcadia Grant, Chandanwari, Poem Nagar, Dehradun, Uttarakhand 248007, 248001, Dehradun Website https://
+uttaranchaluniversity.ac.in/ Field of study, Software Egg, Python, Java, PHP, HTML, jQuery, DBMS Final grade81 % 
+Level in EQF EQF level 6 
+03/04/2012 – 27/05/2013 Takashi, India 
+AddressManera, Takashi, Uttarakhand, 249193, Takashi, India Website https://uttarkashi.kvs.ac.in/ 
+Field of study Physics, Math, Chemistry, C++, English Final grade62 % Level in EQF EQF level 5 Master of Computer Application Graphic Era Hill university Bachelor of Computer Application Uttaranchal University Intermediate 10+2 / Board C.B.S.E Kendra Himalaya Takashi 
+2 / 3PUBLICATIONS 
+Honors AND AWARDS 
+DIGITAL SKILLS 
+Microsoft Excel Microsoft PowerPoint Database SQL Server Working knowledge of SEO optimization 
+HOBBIES AND INTERESTS 
+COMMUNICATION AND INTERPERSONAL SKILLS 
+LANGUAGE SKILLS 
+MOTHER TONGUE(S): Hindi 
+Other language(s): 
+English 
+Listening C2 
+Spoken production C1 
+Reading C2 
+Spoken interaction C1 
+Writing C1 
+Levels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Proﬁcient user 
+I hereby declare that the above information are true to the best of my knowledge
+Dehradun, 17/10/2024 
+ 
+Rohit Rabat 
+01/03/2010 – 31/03/2011 Takashi, India 
+AddressManera Takashi, Uttarakhand, 249193, Takashi, India Website https://uttarkashi.kvs.ac.in/ 
+Field of study Math, Science, English, Hindi, Social Science Final grade68 % Level in EQF EQF level 4 High School / Board C.B.S.E Kendra Himalaya Takashi 2021 
+ 
+Rohit Shopping APK (Android App)
+• App Design → Java+XML
+• Functionality→ Android Java & Database → Firebase
+RohitShooping E-Comm Shopping App in Google Play 
+Link https://apkcombo.com/rohitshopping/com.bcauu.rohitrawatportugal Rohit Shopping E-Comm Shooting App 
+03/04/2019 Uttaranchal University Collaboration with Engine Research and Development Pvt Ltd 
+Data Science with Python Excellence Certiﬁcate by Uttaranchal University Football, Travelling, Making Software, Android App & Website, Repairing Electronic. Conﬂict management and resolution skills & Acknowledge others & Being positive. 
+3 / 3
