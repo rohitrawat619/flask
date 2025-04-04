@@ -96,4 +96,12 @@ def send_email():
     except Exception as e:
         print(f"❌ Failed to send email: {e}")
 
-send_email()
+# Schedule the email to run every 60 seconds
+schedule.every(60).seconds.do(send_email)
+
+print("📧 Email scheduler started. Sending every 60 seconds...")
+
+# Keep running
+while True:
+    schedule.run_pending()
+    time.sleep(1)
