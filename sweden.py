@@ -6,11 +6,10 @@ import time
 EMAIL_SENDER = "rohitrawat676@gmail.com"
 EMAIL_PASSWORD = "zkgdqjvyngyihsge"  # Use App Password for security
 EMAIL_RECEIVERS = [
+    "masoud.moghbel@migrationsverket.se",
     "migrationsverket@migrationsverket.se",
     "culture.stockholm@mea.gov.in",
     "hoc.stockholm@mea.gov.in",
-    "masoud.moghbel@migrationsverket.se",
-    "stockholm-arbetstillstandsenhet3@migrationsverket.se",
     "arbetstillstandsenhet3@migrationsverket.se",
     "rohitrawat8126844298@gmail.com",
     "sandra.nunez@migrationsverket.se"
