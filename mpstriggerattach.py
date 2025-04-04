@@ -41,7 +41,7 @@ I hope this concern is taken constructively, to align internal hiring policies w
 
 Please review the previous email conversation below for full details.
 
-offer Letter PDF attachment is included for your reference.
+offer Letter & Resgination PDF attachment is included for your reference as Evidence.
 
 Best regards,
 
@@ -67,8 +67,8 @@ Thanks & Regards
 Emp I.D - MAC012861
 """
 
-# Path to the PDF file
-PDF_FILE_PATH = "rohit_mps_offer_letter.pdf"
+# List of files to attach
+PDF_FILES = ["rohit_MAC012861_offer_letter.pdf", "resignation.jpeg"]
 
 def send_email():
     try:
@@ -77,32 +77,23 @@ def send_email():
         msg['To'] = ", ".join(EMAIL_TO)
         msg['Cc'] = ", ".join(EMAIL_CC)
         msg['Subject'] = subject
-
-        # Attach the email body
         msg.attach(MIMEText(body, 'plain'))
 
-        # Attach the PDF file
-        with open(PDF_FILE_PATH, 'rb') as pdf_file:
-            pdf_attachment = MIMEApplication(pdf_file.read(), _subtype="pdf")
-            pdf_attachment.add_header('Content-Disposition', 'attachment', filename=PDF_FILE_PATH)
-            msg.attach(pdf_attachment)
+        # Attach multiple files
+        for file_path in PDF_FILES:
+            with open(file_path, "rb") as attachment:
+                part = MIMEApplication(attachment.read(), Name=file_path)
+                part['Content-Disposition'] = f'attachment; filename="{file_path}"'
+                msg.attach(part)
 
-        # Send the email
+        # Send email
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
             server.login(EMAIL_SENDER, EMAIL_PASSWORD)
             server.sendmail(EMAIL_SENDER, EMAIL_TO + EMAIL_CC, msg.as_string())
 
-        print("Email with PDF sent successfully!")
+        print("✅ Email sent successfully with attachments!")
 
     except Exception as e:
-        print(f"Failed to send email: {e}")
+        print(f"❌ Failed to send email: {e}")
 
-# Schedule the email to be sent every 60 seconds
-schedule.every(60).seconds.do(send_email)
-
-print("Email scheduling started. Press Ctrl+C to stop.")
-
-# Keep the script running
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+send_email()
