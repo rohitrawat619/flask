@@ -9,7 +9,13 @@ EMAIL_SENDER = "rohitrawat676@gmail.com"
 EMAIL_PASSWORD = "zkgdqjvyngyihsge"  # Use App Password for security
 
 # Specify TO and CC separately
-EMAIL_TO = ["rahul.arora@mpslimited.com","geetika.hans@mpslimited.com","secretarial@mpslimited.com","Prarthana.agarwal@mpslimited.com"]
+EMAIL_TO = [
+            "rahul.arora@mpslimited.com",
+            "geetika.hans@mpslimited.com",
+            "secretarial@mpslimited.com",
+            "Prarthana.agarwal@mpslimited.com"
+            ]
+
 EMAIL_CC = [
      "sudha.n@mpslimited.com",
      "yash.bichchal@mpslimited.com",
