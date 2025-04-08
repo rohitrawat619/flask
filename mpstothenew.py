@@ -3,23 +3,22 @@ import schedule
 import time
 from email.message import EmailMessage
 
-
 # Email credentials
 EMAIL_SENDER = "rohitrawat676@gmail.com"
 EMAIL_PASSWORD = "zkgdqjvyngyihsge"  # Use App Password for security
 
 # Specify TO and CC separately
-EMAIL_TO = ["abhishek.sharma@mpslimited.com",
+EMAIL_TO = [
+            "abhilash.sharma@highwirepress.com",
             "preetam.panda@mpslimited.com",
             "umakant.vajpayee@mpslimited.com",
             "gaurav.chouhan@mpslimited.com",
-            "clal@mpslimited.com,",
+            "clal@mpslimited.com",
             "gunjan.naik@mpslimited.com",
             "sneha.yadav@highwirepress.com",
-            "kishan.kumar@mpslimited.com",
+            "kishan.kumar@highwirepress.com",
             "aditya.singh@highwirepress.com",
             "rsatija@highwirepress.com",
-            "nsingh@highwirepress.com",
             "nsingh@highwirepress.com",
             "vraterwal@highwirepress.com",
             "vijay.sharma@mpslimited.com",
@@ -56,6 +55,7 @@ EMAIL_CC = [
 subject = "Exciting Opportunity at TO THE NEW Pvt. Ltd. for Drupal Developers || Minimum Package 10+ LPA"
 body = """\
 Dear MPS Drupal Team,
+
 I hope this message finds you all in great health and high spirits.
 
 I’m thrilled to share a fantastic opportunity with all of you. My previous Singapore-based company, TO THE NEW Pvt. Ltd., is currently expanding its Drupal development team and offering competitive packages ranging from ₹15 to ₹20 LPA for experienced professionals.
