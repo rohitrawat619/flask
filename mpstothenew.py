@@ -4,8 +4,8 @@ import time
 from email.message import EmailMessage
 
 # Email credentials
-EMAIL_SENDER = "rohitrawat676@gmail.com"
-EMAIL_PASSWORD = "zkgdqjvyngyihsge"  # Use App Password for security
+EMAIL_SENDER = "rohitrawat2089@gmail.com"
+EMAIL_PASSWORD = "qxwpheepxwsfbvdq"  # Use App Password for security
 
 # Specify TO and CC separately
 EMAIL_TO = [
@@ -39,6 +39,7 @@ EMAIL_CC = [
      "tahaseen.s@mpslimited.com",
      "abhishek.sharma@mpslimited.com",
      "shaily.virmani@mpslimitd.com",
+     "rohitrawat676@gmail.com",
      "aarti.yadav@mpslimited.com",
      "awadh.rajput@mpslimited.com",
      "hemanti.sarkar@mpslimited.com",
@@ -53,6 +54,7 @@ EMAIL_CC = [
      ]
 
 subject = "Exciting Opportunity at TO THE NEW Pvt. Ltd. for Drupal Developers || Minimum Package 10+ LPA"
+
 body = """\
 Dear MPS Drupal Team,
 
