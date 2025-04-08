@@ -25,7 +25,7 @@ EMAIL_CC = [
     "sandra.nunez@migrationsverket.se"
 ]
 
-subject = "Request for Clarification and Refund of My USD 10 Remaining Amount from Visa Application Fee Control No-62151395 || Ref: 2025040100281601 || ICICI= E029747594"
+subject = "Request for Clarification and Refund of My SEK 132 Remaining Amount from Visa Application Fee Control No-62151395 || Ref: 2025040100281601 || ICICI= E029747594"
 
 body = """\
 Dear Sir/Madam,
@@ -33,9 +33,9 @@ Swedish Migration Agency
 
 I hope this message finds you well.
 
-I am writing to formally raise a concern regarding the recent refund I received related to my visa application fee. While the original payment I made was 2,200 SEK on 2/July/2024, I only received an amount equivalent to approximately 2069 SEK which is 132 SEK less than the full amount, which is significantly unexpected.
+I am writing to formally raise a concern regarding the recent refund I received related to my visa application fee. While the original payment I made was **2,200 SEK ON 2/JULY/2024**, I only received an amount equivalent to approximately **2069 SEK WHICH IS 132 SEK** less than the full amount, which is significantly unexpected.
 
-At the time of payment, the full amount of 2,200 SEK was successfully debited from my account. I therefore request a clarification as to why the refunded amount does not reflect the full value paid. I respectfully ask for the remaining balance to be returned to me as soon as possible.
+At the time of payment, the full amount of **2,200 SEK** was successfully debited from my account. I therefore request a clarification as to why the refunded amount does not reflect the full value paid. I respectfully ask for the remaining balance to be returned to me as soon as possible.
 
 Kindly review this matter urgently and provide a breakdown of the refund calculation, if applicable. I believe this may have been an oversight or a technical issue, and I would appreciate your swift assistance in resolving it.
 
