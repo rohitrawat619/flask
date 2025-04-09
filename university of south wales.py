@@ -30,13 +30,12 @@ University of South Wales
 
 I hope this message finds you well.
 
-I am writing to kindly request the issuance of my unconditional offer letter for the [Name of the Course, M.sc Data Science program. I have recently submitted a letter of recommendation from my previous employer, Bynaric Systems Pvt Ltd, as per the documentation requirements.
+I am writing to kindly request the issuance of my unconditional offer letter for the M.sc Data Science program. I have recently submitted a letter of recommendation from my previous employer, Bynaric Systems Pvt Ltd, as per the documentation requirements.
 
 Please confirm if the recommendation letter has been received and whether there are any additional documents or steps needed to proceed with the issuance of the unconditional offer.
 
 I am very excited about the opportunity to study at the University of South Wales and am looking forward to joining your esteemed institution.
 
-I attached required documents for your reference. I would greatly appreciate your assistance in expediting this process, as it is crucial for my visa application and travel arrangements.
 I understand that you may be busy, but I would be grateful if you could prioritize this request. If there are any issues or further information needed, please do not hesitate to reach out to me.
 
 Thank you for your support and assistance.
