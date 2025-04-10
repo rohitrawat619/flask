@@ -11,7 +11,7 @@ EMAIL_PASSWORD = "zkgdqjvyngyihsge"  # Use App Password for security
 
 # Specify TO and CC separately
 EMAIL_TO = [
-    "international@bangor.ac.uk,"
+    "international@bangor.ac.uk,","k.gandhi@uel.ac.uk"
 ]
 EMAIL_CC = [
     "p.bawa@uel.ac.uk",
