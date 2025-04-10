@@ -10,28 +10,21 @@ EMAIL_SENDER = "rohitrawat676@gmail.com"
 EMAIL_PASSWORD = "zkgdqjvyngyihsge"  # Use App Password for security
 
 # Specify TO and CC separately
-EMAIL_TO = [
-    "international@bangor.ac.uk,","k.gandhi@uel.ac.uk"
+EMAIL_TO = ["das@uel.ac.uk"
 ]
-EMAIL_CC = [
-    "p.bawa@uel.ac.uk",
-    "k.gandhi@uel.ac.uk ",
-    "S.Choudhury3@uel.ac.uk ",
-    "N.bhasson@uel.ac.uk ",
-    "g.krishnamurthy@uel.ac.uk",
-    "k.walunj@uel.ac.uk ",
+EMAIL_CC = ["international@bangor.ac.uk"
 ]
 
-subject = "Request for Immediate Release of Unconditional Offer Letter and Confirmation of Admission Reservation || May Intake 2025"
+subject = "Request for Immediate Release of Unconditional Offer Letter and Confirmation of Admission Reservation || May Intake 2025 || Application ID-2911496"
 
 body = """\
 Dear Admissions Team,
 
 University of East London
 
-I hope this message finds you well.
+I hope this message finds you well.  
 
-I am writing to kindly request the immediate release of my Unconditional Offer Letter for course MSc Artificial Intelligence , as it is urgently required by my bank to process the financing of aneducation loan for my studies from the State Bank of India.
+I am writing to kindly request the immediate release of my Unconditional Offer Letter for the MSc in Artificial Intelligence, as it is urgently required by my bank to process the financing of an education loan for my studies from the State Bank of India.
 
 Additionally, I would be grateful if you could please confirm and ensure that my admission/reservation at the University of East London is secure, as I am fully committed to joining the program.
 
@@ -41,8 +34,9 @@ I attached a portal screenshot for your reference below.
 
 Thank you very much for your support and understanding.
 
-Warm regards,.
-Rohit Rawat
+Warm regards,
+
+Application ID-2911496
 """
 
 # List of files to attach
