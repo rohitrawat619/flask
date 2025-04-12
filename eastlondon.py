@@ -10,37 +10,35 @@ EMAIL_SENDER = "rohitrawat676@gmail.com"
 EMAIL_PASSWORD = "zkgdqjvyngyihsge"  # Use App Password for security
 
 # Specify TO and CC separately
-EMAIL_TO = ["das@uel.ac.uk"
+EMAIL_TO = ["rpo.dehradun@mea.gov.in"
 ]
 EMAIL_CC = ["international@bangor.ac.uk"
 ]
 
-subject = "Request for Immediate Release of Unconditional Offer Letter and Confirmation of Admission Reservation || May Intake 2025 || Application ID-2911496"
+subject = "Request for Early Renewal of Passport for Higher Education Abroad || Passport N7638881"
 
 body = """\
-Dear Admissions Team,
 
-University of East London
+Respected Sir/Madam,
 
-I hope this message finds you well.  
+I hope this message finds you well.
 
-I am writing to kindly request the immediate release of my Unconditional Offer Letter for the MSc in Artificial Intelligence, as it is urgently required by my bank to process the financing of an education loan for my studies from the State Bank of India.
+I am writing to request your kind consideration for the early renewal of my passport. My current passport is valid until  24 May 2026, which is a little over 12 months from today. As per standard procedure, I understand that passport renewal is normally permitted within 12 months of expiry.
 
-Additionally, I would be grateful if you could please confirm and ensure that my admission/reservation at the University of East London is secure, as I am fully committed to joining the program.
+However, I am planning to pursue my higher studies in the United Kingdom for approximately 1.5 years, and my university admission and visa process are time-sensitive. To meet the UKVI requirements and visa application timeline, I must possess a passport with validity well beyond the duration of my stay.
 
-Please let me know if any further documentation or actions are needed from my side to expedite this request. Your prompt assistance in this matter would be highly appreciated.
+I kindly request you to allow the early reissue of my passport so that I can proceed with my visa formalities in time. I am prepared to provide my university offer letter and any other supporting documents required to justify this request.
 
-I attached a portal screenshot for your reference below.
+I sincerely hope for your understanding and support in this matter. Your assistance will help me take the next big step in my academic and professional journey.
 
-Thank you very much for your support and understanding.
+Thank you for your time and consideration.
 
 Warm regards,
 
-Application ID-2911496
 """
 
 # List of files to attach
-PDF_FILES = ["east_london.png"]
+PDF_FILES = [""]
 
 def send_email():
     try:
