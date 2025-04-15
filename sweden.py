@@ -11,7 +11,8 @@ EMAIL_PASSWORD = "zkgdqjvyngyihsge"  # App Password
 EMAIL_TO = [
     "masoud.moghbel@migrationsverket.se",
     "migrationsverket@migrationsverket.se",
-    "pernilla.eriksson@migrationsverket.se"
+    "pernilla.eriksson@migrationsverket.se",
+    "sandra.nunez@migrationsverket.se"
 ]
 
 # CC recipients
