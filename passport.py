@@ -32,12 +32,15 @@ I am writing to ask for the immediate release of my new passport, which was subm
 
 The details of my application are as follows:
 
-Old Passport Number: N7638881
+Old Passport Number: N7638881 & validity of my current passport is till 2026-05-24
 New File Number: DD7070915890025
 
 Given that the renewal process does not involve any updates or changes to the document, I humbly request that you facilitate the release of my passport within 3 working days, please, so that I can take the London University interview with a new passport number, which will be future use for applying for a visa.
 
 Your prompt attention and acknowledgement of this request will be highly appreciated, as I am in urgent need of my passport.
+
+Kindly, remove the police verification because I have already submitted the police verification documents with my old passport. I have also attached the acknowledgement slip and the front and back side of my old passport for your reference.
+I understand that the passport office is busy, but I would be grateful if you could prioritize my request due to the urgency of my situation. I am looking forward to your prompt response and the release of my new passport.
 
 Thank you for your support and cooperation.
 
