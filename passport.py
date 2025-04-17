@@ -12,7 +12,7 @@ EMAIL_PASSWORD = "zkgdqjvyngyihsge"  # Use App Password for security
 # Specify TO and CC separately
 EMAIL_TO = ["rpo.dehradun@mea.gov.in","jscpo@mea.gov.in","passport.pg@mea.gov.in"
 ]
-EMAIL_CC = ["passport.admin@passportindia.gov.in"
+EMAIL_CC = ["passport.admin@passportindia.gov.in","eam@mea.gov.in","diream@mea.gov.in","jseamo@mea.gov.in","useamo@mea.gov.in","useam@mea.gov.in"
 ]
 
 subject = "Urgent Request for Immediate Release of Reissue Passport Under Renewal Category Without Any Changes || New File No - DD7070915890025"
