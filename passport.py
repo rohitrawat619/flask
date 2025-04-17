@@ -10,35 +10,43 @@ EMAIL_SENDER = "rohitrawat676@gmail.com"
 EMAIL_PASSWORD = "zkgdqjvyngyihsge"  # Use App Password for security
 
 # Specify TO and CC separately
-EMAIL_TO = ["rpo.dehradun@mea.gov.in"
+EMAIL_TO = ["rpo.dehradun@mea.gov.in","jscpo@mea.gov.in","passport.pg@mea.gov.in"
 ]
-EMAIL_CC = ["international@bangor.ac.uk"
+EMAIL_CC = ["passport.admin@passportindia.gov.in"
 ]
 
-subject = "Request for Early Renewal of Passport for Higher Education Abroad || Passport N7638881"
+subject = "Urgent Request for Immediate Release of New Passport Under Renewal Category Without Any Changes || New File No - DD7070915890025"
 
 body = """\
 
-Respected Sir/Madam,
+To,
 
-I hope this message finds you well.
+Mr. Vijay Shankar Pandey
+Regional Passport Officer
+12, New Road, Aroma Hotel,
+Dehradun, Uttarakhand-248001
 
-I am writing to request your kind consideration for the early renewal of my passport. My current passport is valid until  24 May 2026, which is a little over 12 months from today. As per standard procedure, I understand that passport renewal is normally permitted within 12 months of expiry.
+Dear Mr. Pandey,
 
-However, I am planning to pursue my higher studies in the United Kingdom for approximately 1.5 years, and my university admission and visa process are time-sensitive. To meet the UKVI requirements and visa application timeline, I must possess a passport with validity well beyond the duration of my stay.
+I am writing to ask for the immediate release of my new passport, which was submitted under the renewal category without any changes. Please note that no changes have been requested in the existing passport details.
 
-I kindly request you to allow the early reissue of my passport so that I can proceed with my visa formalities in time. I am prepared to provide my university offer letter and any other supporting documents required to justify this request.
+The details of my application are as follows:
 
-I sincerely hope for your understanding and support in this matter. Your assistance will help me take the next big step in my academic and professional journey.
+Old Passport Number: N7638881
+New File Number: DD7070915890025
 
-Thank you for your time and consideration.
+Given that the renewal process does not involve any updates or changes to the document, I humbly request that you facilitate the release of my passport within 3 working days, please, so that I can take the London University interview with a new passport number, which will be future use for applying for a visa.
 
-Warm regards,
+Your prompt attention and acknowledgement of this request will be highly appreciated, as I am in urgent need of my passport.
+
+Thank you for your support and cooperation.
+
+Sincerely,
 
 """
 
 # List of files to attach
-PDF_FILES = [""]
+PDF_FILES = ["Acknowledgement_Slip.pdf","","old passport back side.png","old passport back side.png"]
 
 def send_email():
     try:

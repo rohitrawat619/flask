@@ -17,13 +17,6 @@ EMAIL_TO = [
 
 # CC recipients
 EMAIL_CC = [
-    "consular.stockholm@mea.gov.in",
-    "ppt.stockholm@mea.gov.in",
-    "oci.stockholm@mea.gov.in",
-    "visa.stockholm@mea.gov.in",
-    "culture.stockholm@mea.gov.in",
-    "hoc.stockholm@mea.gov.in",
-    "sandra.nunez@migrationsverket.se"
 ]
 
 subject = "Request for Clarification and Refund of My SEK 132 Remaining Amount from Visa Application Fee Control No-62151395 || Ref: 2025040100281601 || ICICI= E029747594"
