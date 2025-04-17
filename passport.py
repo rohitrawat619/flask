@@ -15,7 +15,7 @@ EMAIL_TO = ["rpo.dehradun@mea.gov.in","jscpo@mea.gov.in","passport.pg@mea.gov.in
 EMAIL_CC = ["passport.admin@passportindia.gov.in"
 ]
 
-subject = "Urgent Request for Immediate Release of reissue Passport Under Renewal Category Without Any Changes || New File No - DD7070915890025"
+subject = "Urgent Request for Immediate Release of Reissue Passport Under Renewal Category Without Any Changes || New File No - DD7070915890025"
 
 body = """\
 
