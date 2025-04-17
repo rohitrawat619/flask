@@ -46,7 +46,7 @@ Sincerely,
 """
 
 # List of files to attach
-PDF_FILES = ["Acknowledgement_Slip.pdf","old passport back side.png","old passport back side.png"]
+PDF_FILES = ["Acknowledgement_Slip.pdf","old passport back side.png","old passport front side.png"]
 
 def send_email():
     try:
