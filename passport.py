@@ -12,6 +12,7 @@ EMAIL_PASSWORD = "zkgdqjvyngyihsge"  # Use App Password for security
 # Specify TO and CC separately
 EMAIL_TO = ["eam@mea.gov.in"
 ]
+
 EMAIL_CC = ["passport.admin@passportindia.gov.in","diream@mea.gov.in","jseamo@mea.gov.in","useamo@mea.gov.in","useam@mea.gov.in","rpo.dehradun@mea.gov.in","jscpo@mea.gov.in","passport.pg@mea.gov.in"
 ]
 
