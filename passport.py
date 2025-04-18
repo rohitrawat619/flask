@@ -16,7 +16,7 @@ EMAIL_TO = ["eam@mea.gov.in"
 EMAIL_CC = ["passport.admin@passportindia.gov.in","diream@mea.gov.in","jseamo@mea.gov.in","useamo@mea.gov.in","useam@mea.gov.in","rpo.dehradun@mea.gov.in","jscpo@mea.gov.in","passport.pg@mea.gov.in"
 ]
 
-subject = "Urgently Request for Immediate Look The Matter MEAPD/E/2025/0002828 || New File No - DD7070915890025"
+subject = "Urgently Request for Immediate Look The Matter MEAPD/E/2025/0002828, MEAPD/E/2025/0002836 || New File No - DD7070915890025"
 
 body = """\
 
@@ -25,8 +25,6 @@ Dr. S. Jaishankar
 Hon’ble Minister of External Affairs
 Ministry of External Affairs
 South Block, New Delhi – 110011, India
-
-Subject: Urgent Humble Request/Complaint – MEAPD/E/2025/0002828 for Removal of Police Verification Hold & Immediate Release of Passport File No: DD7070915890025
 
 Dear Hon’ble Minister,
 
@@ -54,7 +52,7 @@ I respectfully request you to kindly:
 	2.	Issue instructions to the Regional Passport Office, Dehradun (Mr. Vijay Shankar Pandey – rpo.dehradun@mea.gov.in) to immediately release my reissued passport.
 	3.	Expedite the process so I can fulfill visa requirements and join my academic session on time.
 
-Professional Background: Central & State Government Experience
+Professional Background: Central, Ministry & State Government Experience
 
 I would also like to humbly bring to your attention my previous professional contributions to public service, which reflect my responsible and law-abiding track record:
 	•	Served as Software Engineer under the Maharashtra Secretariat, Bandra (Mumbai – 400051), with the Maharashtra State Board of Technical Education.
@@ -71,7 +69,6 @@ Your kind support in this matter would empower me to pursue my academic goals ab
 Thank you very much for your time and consideration.
 
 Sincerely,
-Rohit Rawat
 
 """
 
